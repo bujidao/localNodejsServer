@@ -1,5 +1,5 @@
 {
-  "name": "localNodeServer2.0",
+  "name": "local-node-server2.0",
   "version": "1.0.0",
   "main": "app.js",
   "license": "MIT",
@@ -8,6 +8,7 @@
     "express": "^4.17.1",
     "images": "^3.2.3",
     "mockjs": "^1.1.0",
+    "morgan": "^1.10.0",
     "multer": "^1.4.2"
   },
   "devDependencies": {

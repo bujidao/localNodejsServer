@@ -14,7 +14,7 @@ module.exports = app => {
  * @returns {object} 200 - get参数返回信息
  * @returns {Error}  default - Unexpected error
  */
-  app.get('/get', function (req, res) {
+  router.get('/get', function (req, res) {
     const data = {
       params: req.query,
       method: req.method,
@@ -37,8 +37,7 @@ module.exports = app => {
  * @returns {object} 200 - An array of user info
  * @returns {Error}  default - Unexpected error
  */
-  app.post('/post', function (req, res) {
-    console.log(req.body)
+  router.post('/post', function (req, res) {
     const data = {
       params: req.body,
       method: req.method,
