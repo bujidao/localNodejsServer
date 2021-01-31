@@ -1,0 +1,47 @@
+{
+  "parent": [{
+    "label": "四川",
+    "id": "001",
+    "hasChildren": true
+  }, {
+    "label": "重庆",
+    "id": "002",
+    "hasChildren": true
+  }],
+  "001": [{
+    "label": "成都",
+    "id": "sc001",
+    "hasChildren": true
+  }, {
+    "label": "绵阳",
+    "id": "sc002",
+    "hasChildren": false
+  }],
+  "002": [{
+    "label": "市区",
+    "id": "cq001",
+    "hasChildren": true
+  }, {
+    "label": "大足",
+    "id": "cq002",
+    "hasChildren": false
+  }],
+  "sc001": [{
+    "label": "锦江区",
+    "id": "scq001",
+    "hasChildren": false
+  }, {
+    "label": "武侯区",
+    "id": "scq002",
+    "hasChildren": false
+  }],
+  "cq001": [{
+    "label": "沙坪坝",
+    "id": "qcs001",
+    "hasChildren": false
+  }, {
+    "label": "222",
+    "id": "qcs002",
+    "hasChildren": false
+  }]
+}
