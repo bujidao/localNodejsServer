@@ -18,6 +18,8 @@ require('./routes/default')(app)
 require('./routes/more')(app)
 require('./routes/upload')(app)
 
+require('./ws/ws')
+
 app.listen(port, host, () => {
   openApiDocs(`http://${host}:${port}/api-docs`)
   console.log(`Example app listening on port ${port}!`)

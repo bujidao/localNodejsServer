@@ -2,7 +2,7 @@
  * @Author       : Alex Ceng
  * @Date         : 2021-01-28 15:26:46
  * @LastEditors  : Alex Ceng
- * @LastEditTime : 2021-01-31 21:28:50
+ * @LastEditTime : 2021-03-06 22:09:48
  * @Description  : API接口测试文档
  */
 module.exports = app => {
@@ -33,7 +33,7 @@ module.exports = app => {
       }
     },
     basedir: __dirname, //app absolute path
-    files: ['../routes/**/*.js'] //Path to the API handle folder
+    files: ['../routes/**/*.js', '../ws/ws.js'] //Path to the API handle folder
   };
   expressSwagger(options)
 }

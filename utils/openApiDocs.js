@@ -1,3 +1,10 @@
+/*
+ * @Author       : Alex Ceng
+ * @Date         : 2021-03-06 21:32:54
+ * @LastEditors  : Alex Ceng
+ * @LastEditTime : 2021-03-06 21:53:44
+ * @Description  : 根据地址打开浏览器
+ */
 // 可以使用exec 来执行系统的默认命令；child_process为内置模块 
 const { exec } = require("child_process");
 //传入url
